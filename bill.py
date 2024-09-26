@@ -14,7 +14,9 @@ if used_units <= 0:
 else:
     if used_units <= 200:
         bill = 0  # Gruha Jyothi Scheme
+        print("Your bill is ₹0 due to the Gruha Jyothi Scheme (subsidy).")
     else:
         bill = (used_units - 200) * 3  # Charge for units above 200
+        print(f"Charges for this month: ₹{bill}")
+        print("Your bill is after applying subsidy for 200 units.")
 
-    print(f"Charges for this month: ₹{bill}")
