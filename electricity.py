@@ -1,6 +1,6 @@
 def calculate_electricity_bill(units):
     # Define rates (in this example, we use a hypothetical rate per unit)
-    rate_per_unit = 1.5  # Example rate per unit in INR
+    rate_per_unit = 3 # Example rate per unit in INR
 
     if units <= 200:
         return 0  # Free for units up to 200
